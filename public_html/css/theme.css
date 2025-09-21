@@ -12226,4 +12226,21 @@ header .navbar-nav .nav-item .nav-link {
   margin-bottom: 5.9rem;
 }
 
+.service-section {
+  padding: 11rem 0 11.3rem;
+}
+.service-section .service-section-tittle {
+  margin-bottom: 6.1rem;
+}
+.service-section .service-item {
+  margin-bottom: 2rem;
+}
+.service-section .service-item .service-item-title {
+  color: #000;
+  text-transform: uppercase;
+}
+.service-section .service-item .service-item-title:hover {
+  color: #1A77CD;
+}
+
 /*# sourceMappingURL=theme.css.map */
