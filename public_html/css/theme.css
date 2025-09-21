@@ -12213,4 +12213,17 @@ header .navbar-nav .nav-item .nav-link {
   }
 }
 
+.herro-section {
+  padding: 90px 0px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto 100%;
+}
+.herro-section .herro-content {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.herro-section .herro-content .herro-description {
+  margin-bottom: 5.9rem;
+}
+
 /*# sourceMappingURL=theme.css.map */
