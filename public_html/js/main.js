@@ -8,7 +8,6 @@ $(document).ready(function () {
             let position = $(this).offset().top;
             let animationName = $(this).attr('data-animation');
             let delay = $(this).attr('data-delay');
-
             if (position < windowHeight + scroll - 100) {
                 $(this).addClass(animationName);
                 $(this).css('animation-delay', delay);
@@ -21,8 +20,6 @@ $(document).ready(function () {
         animation();
     });
     animation();
-
-
 //validate form
 
 
@@ -61,13 +58,30 @@ $(document).ready(function () {
                     required: 'The Message* field is required'
                 }
             },
-
             errorElement: 'p',
             errorPlacement: function (error, element) {
                 error.appendTo(element.closest(".form-group").find(".error-msg"));
             }
         });
+    }
 
+    if ($('.team-slider').length > 0) {
+        $('.team-slider').owlCarousel({
+            loop: true,
+            dots: true,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                992: {
+                    items: 2,
+                    nav: false,
+                    margin: 24
+                }
+               
+            }
+        });
     }
 
 });
