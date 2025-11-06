@@ -12250,8 +12250,21 @@ header .navbar-nav .nav-item .nav-link {
 .service-section .service-item .service-item-title {
   color: #000;
   text-transform: uppercase;
+  padding-left: 1.2rem;
 }
 .service-section .service-item .service-item-title:hover {
+  color: #1A77CD;
+}
+.service-section.dark-service-section {
+  background-color: #11284B;
+}
+.service-section.dark-service-section .service-section-tittle {
+  color: #1A77CD;
+}
+.service-section.dark-service-section .service-item .service-item-title {
+  color: #fff;
+}
+.service-section.dark-service-section .service-item .service-item-title:hover {
   color: #1A77CD;
 }
 
